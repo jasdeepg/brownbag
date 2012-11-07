@@ -9,6 +9,7 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+gem 'pg'
 gem 'rspec-rails'
 gem 'twitter-bootstrap-rails'
 gem "therubyracer"
