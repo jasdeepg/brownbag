@@ -1,0 +1,114 @@
+body{
+
+}
+
+#header {
+	height:40px;
+	margin-bottom:20px;
+	margin-top:-40px;
+}
+
+#container {
+	width:100%;
+	height:500px;
+	background-image:url('brownbag.jpeg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#footer {
+	height:20px;
+}
+
+#title {
+	float:left;	
+	font-family:"Helvetica";
+	font-size:30px;
+	width:50%;
+}
+
+#sign-in{
+	float:right;
+	position:relative;
+	font-size:20px;
+	width:50%;
+	text-align:right;
+}
+
+table#first {
+	span#after{display:none;}
+	float:left;
+	width:25%;
+	background-color:white;
+	width:150px;
+	height:150px;
+}
+
+table#second {
+	span#after{display:none;}
+	float:left;
+	width:150px;
+	height:150px;
+	background-color:white;
+}
+
+table#second:hover {
+	span#before {display:none;}
+	span#after {display:block;}
+}
+
+table#third {
+	span#after{display:none;}
+	float:left;
+	width:25%;
+	width:150px;
+	height:150px;
+	background-color:white;
+}
+
+table#third:hover {
+	span#before {display:none;}
+	span#after {display:block;}
+}
+
+table#fourth {
+	span#after{display:none;}
+	float:left;
+	width:25%;
+	width:150px;
+	height:150px;
+	background-color:white;
+}
+
+table#fourth:hover {
+	span#before {display:none;}
+	span#after {display:block;}
+}
+
+table#fifth {
+	span#after{display:none;}
+	float:left;
+	width:25%;
+	width:150px;
+	height:150px;
+	background-color:white;
+}
+
+table#fifth:hover {
+	span#before {display:none;}
+	span#after {display:block;}
+}
+
+
+#row-book {
+	height:200px;
+	width:100%;
+	padding-left:50px;
+	padding-top:150px;
+}
+
+.break{
+	float:left;
+	width:40px;
+	height:40px;
+}
